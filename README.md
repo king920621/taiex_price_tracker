@@ -8,7 +8,7 @@
 將此專案GIT下來
 
 ```bash
-git clone <https://github.com/HKUDS/LightRAG.git>
+git clone https://github.com/king920621/taiex_price_tracker.git
 ```
 
 後使用docker將其build起來
