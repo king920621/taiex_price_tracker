@@ -1,6 +1,5 @@
-# 使用一個標準的 Python 3.9 輕量級映像
-# 適用於大多數基於 x86-64 架構的 Linux 電腦
-FROM python:3.9-slim-buster
+# Build stage
+FROM python:3.11-slim AS builder
 
 # 設定環境變量，防止在安裝套件時出現互動提示
 ENV DEBIAN_FRONTEND=noninteractive
