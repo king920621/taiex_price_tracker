@@ -37,3 +37,5 @@ docker run -d \
 (依據清況選擇是否使用sudo)
 
 
+~~我的BNB地址，歡迎抖內~~
+0x5e37d4aa235c87755f1ac7edee1addd1f9689604
