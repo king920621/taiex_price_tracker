@@ -30,7 +30,10 @@ docker run -d \
   --name taiex-bot-container \
   --restart unless-stopped \
   -e DISCORD_BOT_TOKEN=你的_實際_Discord_Bot_Token \
+  --dns 8.8.8.8 \
   taiex-bot
 ```
 
 (依據清況選擇是否使用sudo)
+
+
