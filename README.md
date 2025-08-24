@@ -26,12 +26,7 @@ sudo docker build -t taiex-bot .
 建立container (將  “你的_實際_Discord_Bot_Token” 更換為你的Discord_Bot_Token)
 
 ```bash
-docker run -d \
-  --name taiex-bot-container \
-  --restart unless-stopped \
-  -e DISCORD_BOT_TOKEN=你的_實際_Discord_Bot_Token \
-  --dns 8.8.8.8 \
-  taiex-bot
+docker run -d --name taiex-bot-container --restart unless-stopped -e DISCORD_BOT_TOKEN=你的_實際_Discord_Bot_Token --dns 8.8.8.8 taiex-bot
 ```
 
 (依據清況選擇是否使用sudo)
